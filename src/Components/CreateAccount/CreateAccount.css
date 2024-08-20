@@ -1,0 +1,96 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.CreateAccount-root {
+    display: flex;
+    height: 100vh;
+    background-image: url('../../images/image-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+    }
+
+.CreateAccount-main {
+    height:77vh ;
+    width: 60vh;
+    border: 2px solid rgb(236, 70, 70);
+    border-radius: 5px;
+    color: white;
+    position: absolute;
+}
+
+.CreateAccount-header{
+    display: flex;
+    justify-content:center ;
+    h1{
+        margin-top: 10px;
+        color: white;
+    }
+}
+
+.CreateAccount-Form{
+
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.CreateAccount-Form form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.CreateAccount-Form .CreateAccount-form-group{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.CreateAccount-Form label {
+    width: 230px;
+    font-weight: bold;
+    color: white;
+    font-size: 19px;
+}
+
+.CreateAccount-Form input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 5vh;
+    color: red;
+    border: 1px solid red;
+    border-radius: 10px;
+    font-size: large;
+    left: -10vh;
+    background:none;
+}
+
+.CreateAccount-Form input:focus {
+    outline: none;
+    border: none;
+}
+
+.CreateAccount-Form .CreateAccount-button {
+    width: 33vh;
+    margin-left: 17vh;
+    padding: 10px;
+    background:none;
+    color: red;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.CreateAccount-Form button:hover {
+    background:white;
+    color: red;
+}
+

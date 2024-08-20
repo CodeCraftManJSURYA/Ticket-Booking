@@ -1,0 +1,148 @@
+.Login-root {
+    display: flex;
+    height: 100vh;
+    background-image: url('../../images/image-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    }
+
+    .Login-Header {
+
+        display: flex;
+        justify-content:center ;
+        margin-bottom: 10px;
+        h1{
+            color: whitesmoke;
+        }
+    }
+    
+    .Login-Main {
+        height: 53vh;
+        width: 60vh;
+        left: 36%;
+        top: 19vh;
+        border: 2px solid rgb(236, 70, 70);
+        border-radius: 5px;
+        position: absolute;
+    }
+    
+    .Login-Main label {
+        margin-right: 145px;
+        margin-left: 50px;
+        font-weight: bold;
+        color: red;
+        font-size: 19px;
+        margin-top: 15px;
+    }
+    
+    .Login-Main input {
+        margin-left: 50px;
+        margin-top: 5px;
+        width: 45vh;
+        color:red;
+        background: none;
+        border: 2px solid red;
+        font-size: 20px;
+        padding: 6px 0 ;
+        border-radius: 5px
+    }
+    
+    .Login-Main input:focus{
+        outline: none;
+        border: 1px solid red;
+    }
+    
+    
+    
+    .forget-password{
+        font-size: 18px;
+        color: white;
+        margin-left: 245px;
+    }
+
+    .forget-password:hover{
+        color: red;
+    }
+
+
+    
+    .Login-Main button 
+     {
+        width: 45vh;
+        padding: 7px 0;
+        color: red;
+        background-color: white;
+        border-radius: 5px;
+        border: none;
+        margin-left: 49px;
+        margin-top: 15px;
+        font-weight:bold ;
+        font-size: 20px;
+        transition: 0.3s;
+        
+     }
+    
+    .Login-Main button:hover {
+        background-color: red;
+        color: white;
+        border: none;
+    }
+    
+    .right-hr {
+        margin-top: 30px;
+        margin-left: 25px;
+        margin-right: 0px;
+        border: 1px solid rgb(108, 12, 12);
+        width: 39%;
+        
+    }
+    
+    .left-hr{
+        border: 1px solid rgb(108, 12, 12);
+        width: 39%;
+        margin-left: 240px;
+        margin-top: -10px;
+    }
+    
+    .or {
+        color: white;
+        font-weight: bold;
+        margin-top:-15px ;
+        margin-left: 212px;
+        display: flex;  
+    }
+    
+    .email-link {
+        display: flex;
+        justify-content: center;
+        color: white;
+        margin-top: 30px;
+    }
+    
+    .no-account{
+        color: white;
+        margin-top: 5px;
+        margin-left: 45px;
+    }
+    
+    .create-page {
+        margin-left: 260px;
+        margin-top:-23px ;
+        font-size: 20px;
+    }
+    
+    .create-page-font{
+        color: rgb(171, 33, 33);
+        text-decoration: none;
+    
+    }
+    
+    .create-page-font:hover {
+        color: red;
+    }
+    
+    
+    

@@ -1,0 +1,58 @@
+.Booking-root{
+    margin: 0%;
+    padding: 0%;
+    min-height: 100vh;
+    background: #e7e5e1;
+}
+
+.Booking-containner{
+    height: 83vh;
+    width: 100%;
+    background-color: rgb(242, 244, 243);
+    margin-top: 5vh;
+}
+
+.Theater{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.Theater-name{
+    height: 50%;
+    width: 70vh;
+    display: flex;
+    margin-left: 30vh;
+    align-items: center;
+}
+
+.Movie-timing{
+    display: flex;
+    gap: 10px;
+    height: 70%;
+    width: 30%;
+}
+
+.Time{
+    height: 7vh;
+    width: 12vh;
+    vertical-align: middle;
+    text-align: center;
+    background-color: whitesmoke;
+    border: 0.3px solid rgb(59, 56, 56);
+    border-radius: 2px;
+    transition: 0.1s;
+    text-decoration: none;
+    color: rgb(20, 106, 77);
+}
+
+.Time:hover{
+    background-color: rgb(5, 139, 95);
+    color: whitesmoke;
+}
+
+
+

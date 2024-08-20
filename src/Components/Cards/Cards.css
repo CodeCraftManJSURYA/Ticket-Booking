@@ -1,0 +1,114 @@
+.Cards{
+    height: 85vh;
+    width: 100%;
+}
+.card1{
+    background-color: white;
+    height: 55vh;
+    width: 30vh;
+    position: absolute;
+    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2); 
+    margin-left: 18vh;
+    margin-top: 20vh;
+    border-radius: 10px; 
+    backdrop-filter: blur(14px); 
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+
+}
+.card2{
+    background-color: white;
+    height: 55vh;
+    width: 30vh;
+    position: absolute;
+    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2); 
+    margin-left: 53vh;
+    margin-top: 20vh;
+    border-radius: 10px; 
+    backdrop-filter: blur(14px); 
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+
+
+}
+.card3{
+    background-color: white;
+    position: absolute;
+    height: 55vh;
+    width: 30vh;
+    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2); 
+    margin-left: 88vh;
+    margin-top: 20vh;
+    border-radius: 10px; 
+    backdrop-filter: blur(14px); 
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+
+}
+.card4{
+    background-color: white;
+    position: absolute;
+    height: 55vh;
+    width: 30vh;
+    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2); 
+    margin-left: 123vh;
+    margin-top: 20vh;
+    border-radius: 10px; 
+    backdrop-filter: blur(14px); 
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+
+}
+
+.card5{
+    background-color: white;
+    position: absolute;
+    height: 55vh;
+    width: 30vh;
+    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2); 
+    margin-left: 158vh;
+    margin-top: 20vh;
+    border-radius: 10px; 
+    backdrop-filter: blur(14px); 
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+
+img{
+    height: 70%;
+    width: 100%;
+}
+
+.Likes{
+    background-color: black;
+    height: 25px;
+    width: 100%;
+    border-radius:0px 0px 5px 5px;
+    margin-top: -4px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    p{
+        color: white;
+    }
+}
+
+.container{
+    padding: 10px 20px;
+    margin-bottom: 0%;
+}
+
+.Booing-btn{
+    padding: 5px 9px;
+    background-color: rgb(148, 24, 24);
+    color: white;
+    border: none;
+    left: 3vh;
+    position: absolute;
+    border-radius: 3px;
+}
+
+.Booing-btn:hover{
+    background-color: red;
+
+}

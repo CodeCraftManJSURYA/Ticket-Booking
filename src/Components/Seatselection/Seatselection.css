@@ -1,0 +1,39 @@
+/* src/SeatSelection.css */
+.seat-selection {
+    text-align: center;
+}
+
+.seats {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.seat {
+    width: 30px;
+    height: 30px;
+    background-color: #ddd;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seat.selected {
+    background-color: #108b6e;
+    color: white;
+}
+
+.payment-details {
+    margin-top: 20px;
+}
+
+.payment-details button {
+    padding: 10px 20px;
+    background-color: #c11c1c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

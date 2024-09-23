@@ -11,7 +11,7 @@ function Booking() {
         <div className='Booking-containner'>
             <div className='Theater'>
                 <div className='Theater-name'>
-                <p>SB Cinimas (Sri Bahavathi) 4K Dolby Atmos : Poonamalli</p>
+                <p>SB Cinemas (Sri Bahavathi) 4K Dolby Atmos : Poonamalli</p>
                 </div>
                 <div className='Movie-timing'>
                     <Link to={'/Seatselection'}>
@@ -19,16 +19,24 @@ function Booking() {
                     Dolby atmos
                 </button>
                 </Link>
-
+                
+                <Link to={'/Seatselection'}>
                 <button className='Time'>011.30 am
                     Dolby atmos
                 </button>
+                </Link>
+
+                <Link to={'/Seatselection'}>
                 <button className='Time'>03.15 pm
                     Dolby atmos
                 </button>
+                </Link>
+
+                <Link to={'/Seatselection'}>
                 <button className='Time'>06.40 pm
                     Dolby atmos
                 </button>
+                </Link>
                 </div>
             </div>
 
@@ -39,18 +47,29 @@ function Booking() {
                 </div>
   
                 <div className='Movie-timing'>
+                <Link to={'/Seatselection'}>
                 <button className='Time'>09.15 am
                 Dolby atmos
                 </button>
+                </Link>
+
+                <Link to={'/Seatselection'}>
                 <button className='Time'>10.30 am
                     Dolby atmos
                 </button>
+                </Link>
+
+                <Link to={'/Seatselection'}>
                 <button className='Time'>02.15 pm
                     Dolby atmos
                 </button>
+                </Link>
+
+                <Link to={'/Seatselection'}>
                 <button className='Time'>05.40 pm
                     Dolby atmos
                 </button>
+                </Link>
 
                 </div>
 
@@ -61,19 +80,29 @@ function Booking() {
                 </div>
   
                 <div className='Movie-timing'>
+                <Link to={'/Seatselection'}>
                 <button className='Time'>09.15 am
                     Dolby atmos
                 </button>
+                </Link>
+
+                <Link to={'/Seatselection'}>
                 <button className='Time'>011.30 am
                     Dolby atmos
                 </button>
+                </Link>
+        
+                <Link to={'/Seatselection'}>
                 <button className='Time'>03.15 pm
                     Dolby atmos
                 </button>
+                </Link>
+
+                <Link to={'/Seatselection'}>
                 <button className='Time'>06.40 pm
                     Dolby atmos
                 </button>
-
+                </Link>
                 </div>
 
             </div>
@@ -83,19 +112,29 @@ function Booking() {
                 </div>
   
                 <div className='Movie-timing'>
+                <Link to={'/Seatselection'}>
                 <button className='Time'>09.15 am
                     Dolby atmos
                 </button>
+                </Link>
+
+                <Link to={'/Seatselection'}>
                 <button className='Time'>011.30 am
                     Dolby atmos
                 </button>
+                </Link>
+
+                <Link to={'/Seatselection'}>
                 <button className='Time'>03.15 pm
                     Dolby atmos
                 </button>
+                </Link>
+
+                <Link to={'/Seatselection'}>
                 <button className='Time'>06.40 pm
                     Dolby atmos
                 </button>
-
+                </Link>
                 </div>
 
             </div>
@@ -105,18 +144,29 @@ function Booking() {
                 </div>
   
                 <div className='Movie-timing'>
+                <Link to={'/Seatselection'}>
                 <button className='Time'>09.15 am
                     Dolby atmos
                 </button>
+                </Link>
+
+                <Link to={'/Seatselection'}>
                 <button className='Time'>011.30 am
                     Dolby atmos
                 </button>
+                </Link>
+
+                <Link to={'/Seatselection'}>
                 <button className='Time'>03.15 pm
                     Dolby atmos
                 </button>
+                </Link>
+
+                <Link to={'/Seatselection'}>
                 <button className='Time'>06.40 pm
                     Dolby atmos
                 </button>
+                </Link>
 
                 </div>
 
@@ -128,18 +178,29 @@ function Booking() {
                 </div>
   
                 <div className='Movie-timing'>
+                <Link to={'/Seatselection'}>
                 <button className='Time'>09.15 am
                     Dolby atmos
                 </button>
+                </Link>
+
+                <Link to={'/Seatselection'}>
                 <button className='Time'>011.30 am
                     Dolby atmos
                 </button>
+                </Link>
+
+                <Link to={'/Seatselection'}>
                 <button className='Time'>03.15 pm
                     Dolby atmos
                 </button>
+                </Link>
+
+                <Link to={'/Seatselection'}>
                 <button className='Time'>06.40 pm
                     Dolby atmos
                 </button>
+                </Link>
 
                 </div>
 
@@ -150,19 +211,29 @@ function Booking() {
                 </div>
   
                 <div className='Movie-timing'>
+                <Link to={'/Seatselection'}>
                 <button className='Time'>09.15 am
                     Dolby atmos
                 </button>
-                <button className='Time'>011.30 am
+                </Link>
+
+                <Link to={'/Seatselection'}>
+                <button className='Time'>11.30 am
                     Dolby atmos
                 </button>
+                </Link>
+
+                <Link to={'/Seatselection'}>
                 <button className='Time'>03.15 pm
                     Dolby atmos
                 </button>
+                </Link>
+
+                <Link to={'/Seatselection'}>
                 <button className='Time'>06.40 pm
                     Dolby atmos
                 </button>
-
+                </Link>
                 </div>
 
             </div>
@@ -172,18 +243,29 @@ function Booking() {
                 </div>
   
                 <div className='Movie-timing'>
+                <Link to={'/Seatselection'}>
                 <button className='Time'>09.15 am
                     Dolby atmos
                 </button>
-                <button className='Time'>011.30 am
+                </Link>
+
+                <Link to={'/Seatselection'}>
+                <button className='Time'>11.30 am
                     Dolby atmos
                 </button>
+                </Link>
+
+                <Link to={'/Seatselection'}>
                 <button className='Time'>03.15 pm
                     Dolby atmos
                 </button>
+                </Link>
+
+                <Link to={'/Seatselection'}>
                 <button className='Time'>06.40 pm
                     Dolby atmos
                 </button>
+                </Link>
 
                 </div>
 

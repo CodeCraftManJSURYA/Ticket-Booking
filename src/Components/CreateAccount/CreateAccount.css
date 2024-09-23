@@ -76,6 +76,11 @@
     border: none;
 }
 
+.CreateAccount-Form input::placeholder{
+font-size: 13px;
+color: red;
+}
+
 .CreateAccount-Form .CreateAccount-button {
     width: 33vh;
     margin-left: 17vh;
